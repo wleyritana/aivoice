@@ -57,7 +57,7 @@ def elevenlabs_stt(path: str):
         print("[STT] ELEVENLABS_API_KEY missing, skipping ElevenLabs STT.")
         return None, None
 
-    url = "https://api.elevenlabs.io/v1/speech-to-text/convert"
+    url = "https://api.elevenlabs.io/v1/speech-to-text"
     headers = {
         "xi-api-key": ELEVENLABS_API_KEY,
     }
